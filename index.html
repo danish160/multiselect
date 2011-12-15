@@ -16,7 +16,7 @@
             $.localise('ui-multiselect', { /*language: 'en',*/path: 'js/locale/' });
             $(".multiselect").multiselect({
                 resizable: true,
-                showSelectedFirst: false
+                showSelectedFirst: true
             });
 
             $('#switcher').themeswitcher();
@@ -60,7 +60,7 @@
             </ul>
             <br />
             <form action="index.html">
-            <select id="countries" class="multiselect" multiple="multiple" name="countries[]">
+            <select style="width: 550px;" id="countries" class="multiselect" multiple="multiple" name="countries[]">
                 <option value="AFG">Afghanistan</option>
                 <option value="ALB">Albania</option>
                 <option value="DZA">Algeria</option>
